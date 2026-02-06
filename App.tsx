@@ -305,13 +305,13 @@ const App: React.FC = () => {
   const inputClasses = "w-full bg-transparent border-b border-slate-200 py-2.5 px-1 focus:outline-none focus:border-slate-500 transition-colors font-light text-base text-left flex items-center";
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-24 min-h-screen">
-      <header className="mb-16 text-left">
+    <div className="max-w-4xl mx-auto px-6 pt-24 pb-12 min-h-screen flex flex-col">
+      <header className="mb-6 text-left">
         <h1 className="text-4xl font-light tracking-tight text-slate-900 mb-2">To-Do List</h1>
         <p className="text-sm text-slate-400 font-light max-w-2xl leading-relaxed">A simple space for your tasks that celebrates the little seasonal moments.</p>
       </header>
 
-      <section className="mb-20">
+      <section className="mb-10">
         <form onSubmit={handleAddTask} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-x-8 gap-y-8 items-end">
           <div className="sm:col-span-2 lg:col-span-5">
             <label className="block text-[10px] uppercase tracking-widest text-slate-400 mb-2 font-semibold">Task</label>
@@ -338,7 +338,7 @@ const App: React.FC = () => {
               const showDivider = index === 0 || task.date !== tasks[index - 1].date; // Logical separation of days
               return (
                 <React.Fragment key={task.id}>
-                  {showDivider && <div className="flex items-center gap-4 pt-12 pb-4"><span className="text-[10px] uppercase tracking-widest font-bold text-slate-300">{format(parse(task.date, 'yyyy-MM-dd', new Date()), 'EEEE, MMM d')}</span><div className="h-[1px] w-full bg-slate-100"></div></div>}
+                  {showDivider && <div className="flex items-center gap-4 pt-8 pb-4"><span className="text-[10px] uppercase tracking-widest font-bold text-slate-300">{format(parse(task.date, 'yyyy-MM-dd', new Date()), 'EEEE, MMM d')}</span><div className="h-[1px] w-full bg-slate-100"></div></div>}
                   <TaskItem index={index} task={task} overdue={isOverdue(task)} isDragging={draggedIndex === index} isDragOver={dragOverIndex === index} onDelete={(id: any) => setTasks(prev => prev.filter(t => t.id !== id))} onEdit={(t: any) => { setEditingId(t.id); setDescription(t.description); setSelectedDate(parse(t.date, 'yyyy-MM-dd', new Date())); setSelectedTime(t.time); window.scrollTo({ top: 0, behavior: 'smooth' }); }} onToggle={(id: any) => setTasks(prev => prev.map(t => t.id === id ? { ...t, completed: !t.completed } : t))} onDragStart={handleDragStart} onDragOver={handleDragOver} onDragEnd={() => { setDraggedIndex(null); setDragOverIndex(null); }} onDrop={handleDrop} />
                 </React.Fragment>
               );
@@ -347,7 +347,7 @@ const App: React.FC = () => {
         )}
       </main>
 
-      <footer className="mt-32 pb-20 text-center">
+      <footer className="mt-auto pt-24 pb-8 text-center">
         <span className="text-[10px] uppercase tracking-[0.4em] text-slate-300 font-medium">stop checking out my bottom</span>
       </footer>
     </div>
