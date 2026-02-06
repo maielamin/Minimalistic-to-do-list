@@ -48,6 +48,18 @@ const THEME_KEYWORDS: Record<string, TaskTheme> = {
 };
 
 /**
+ * Map of specific dates (MM-DD) to their respective visual themes.
+ */
+const THEME_DATES: Record<string, TaskTheme> = {
+  '02-14': 'valentine', // Valentine's Day
+  '10-31': 'halloween', // Halloween
+  '12-24': 'christmas', // Christmas Eve
+  '12-25': 'christmas', // Christmas Day
+  '06-21': 'summer',    // Summer Solstice
+  '09-22': 'autumn',    // Autumn Equinox
+};
+
+/**
  * Visual metadata for themes including background, emoji, and animations.
  */
 const THEME_CONFIG: Record<TaskTheme, any> = {
@@ -63,14 +75,22 @@ const THEME_CONFIG: Record<TaskTheme, any> = {
 };
 
 /**
- * Helper to determine theme based on description text.
+ * Helper to determine theme based on description text and/or due date.
+ * Date-based triggers take precedence over keyword triggers.
  */
-const getTaskTheme = (description: string): TaskTheme | null => {
-  const lower = description.toLowerCase(); // Case-insensitive matching
+const getTaskTheme = (description: string, dateStr: string): TaskTheme | null => {
+  // 1. Check for date-based triggers (MM-DD)
+  const [year, month, day] = dateStr.split('-');
+  const monthDay = `${month}-${day}`;
+  if (THEME_DATES[monthDay]) return THEME_DATES[monthDay];
+
+  // 2. Check for keyword-based triggers
+  const lower = description.toLowerCase();
   for (const [key, value] of Object.entries(THEME_KEYWORDS)) {
-    if (lower.includes(key)) return value; // Return first match
+    if (lower.includes(key)) return value;
   }
-  return null; // No match found
+  
+  return null;
 };
 
 // --- Sub-components ---
@@ -257,7 +277,7 @@ const App: React.FC = () => {
     e.preventDefault(); // Prevent page reload
     if (!description || !selectedDate || !selectedTime) return; // Validation
     const dateStr = format(selectedDate, 'yyyy-MM-dd'); // Format for storage
-    const theme = getTaskTheme(description); // Calculate theme
+    const theme = getTaskTheme(description, dateStr); // Calculate theme based on text and date
     if (editingId) {
       setTasks(prev => prev.map(t => t.id === editingId ? { ...t, description, date: dateStr, time: selectedTime, theme } : t));
       setEditingId(null);

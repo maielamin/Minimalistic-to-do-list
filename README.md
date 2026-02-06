@@ -9,6 +9,27 @@ A clean, distraction-free productivity web application that prioritizes mental c
 
 ---
 
+## 📸 Visual Preview
+
+<p align="center">
+  <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDgwMCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI1MDAiIGZpbGw9IiNGOEY5RkIiLz4KICA8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj4KICAgIDwhLS0gSGVhZGVyIC0tPgogICAgPHRleHQgZmlsbD0iIzBGMTcyNyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZm9udC1mYW1pbHk9IkludGVyLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjMyIiBmb250LXdlaWdodD0iMzAwIiBsZXR0ZXItc3BhY2luZz0iLTAuMDFlbSIgeD0iODAiIHk9IjgwIj5Uby1EbyBMaXN0PC90ZXh0PgogICAgPHRleHQgZmlsbD0iIzk0QTNDQiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZm9udC1mYW1pbHk9IkludGVyLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmb250LXdlaWdodD0iMzAwIiB4PSI4MCIgeT0iMTA1Ij5BIHNpbXBsZSBzcGFjZSBmb3IgeW91ciB0YXNrcy4uLjwvdGV4dD4KICAgIAogICAgPCEtLSBJbnB1dCBBcmVhIC0tPgogICAgPHJlY3QgeD0iODAiIHk9IjE2MCIgd2lkdGg9IjY0MCIgaGVpZ2h0PSIxIiBmaWxsPSIjRTJFOEYwIi8+CiAgICA8dGV4dCBmaWxsPSIjOTRBM0NCIiBmb250LWZhbWlseT0iSW50ZXIiIGZvbnQtc2l6ZT0iOSIgZm9udC13ZWlnaHQ9IjYwMCIgbGV0dGVyLXNwYWNpbmc9IjAuMWVtIiB4PSI4MCIgeT0iMTUwIj5UQVNLPC90ZXh0PgogICAgPHRleHQgZmlsbD0iIzY0NzQ4QiIgZm9udC1mYW1pbHk9IkludGVyIiBmb250LXNpemU9IjE0IiB4PSI4MCIgeT0iMTg1Ij5XaGF0IG5lZWRzIHRvIGJlIGRvbmU/PC90ZXh0PgogICAgCiAgICA8IS0tIFRhc2sgSXRlbXMgLS0+CiAgICA8IS0tIERhdGUgRGl2aWRlciAtLT4KICAgIDx0ZXh0IGZpbGw9IiNDREU0RUYiIGZvbnQtZmFtaWx5PSJJbnRlciIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMC4yZW0iIHg9IjgwIiB5PSIyNTAiPk1PTkRBWSwgTUFSAzExPC90ZXh0PgogICAgPHJlY3QgeD0iMjAwIiB5PSIyNDciIHdpZHRoPSI1MjAiIGhlaWdodD0iMSIgZmlsbD0iI0YxRjVGO some actual text for visual preview in SVG -->
+    <rect x="80" y="270" width="640" height="70" rx="12" fill="white" stroke="#F1F5F9" stroke-width="1"/>
+    <rect x="95" y="295" width="20" height="20" rx="6" stroke="#E2E8F0" stroke-width="2"/>
+    <text fill="#1E293B" font-family="Inter" font-size="16" font-weight="300" x="130" y="310">Morning run at the park</text>
+    
+    <!-- Themed Task (Fitness) -->
+    <rect x="80" y="350" width="640" height="70" rx="12" fill="#ECFEFF" fill-opacity="0.5" stroke="white" stroke-width="1"/>
+    <rect x="95" y="375" width="20" height="20" rx="6" fill="#06B6D4" stroke="#06B6D4" stroke-width="2"/>
+    <path d="M100 385L104 389L110 381" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text fill="#06B6D4" font-family="Inter" font-size="14" x="130" y="390">💪</text>
+    <text fill="#64748B" font-family="Inter" font-size="16" font-weight="300" x="155" y="390" text-decoration="line-through">Evening gym session</text>
+    <text fill="#94A3CB" font-family="Inter" font-size="9" font-weight="700" x="130" y="410">MAR 11 • 18:30</text>
+  </g>
+</svg>" alt="Minimalist To-Do List Preview" width="100%">
+</p>
+
+---
+
 ## ✨ Project Overview
 
 In an era of notification-heavy productivity tools, this application takes a "passive" approach. It features zero popups, zero reminders, and zero sound alerts. Instead, it offers a single scrolling canvas where tasks live, expire, and persist quietly.
