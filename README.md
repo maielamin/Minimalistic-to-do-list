@@ -1,31 +1,17 @@
-
 # Minimalist Seasonal To-Do List 🌿
 
 [![React](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A clean, distraction-free productivity web application that prioritizes mental clarity through minimalist design and "Seasonal Moments"—subtle, keyword-triggered visual themes that bring a touch of life to your daily planning.
+A clean, distraction-free productivity web application that prioritizes mental clarity through minimalist design and "Seasonal Moments"—subtle, keyword-triggered and date-triggered visual themes that bring a touch of life to your daily planning.
 
 ---
 
 ## 📸 Visual Preview
 
 <p align="center">
-  <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDgwMCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI1MDAiIGZpbGw9IiNGOEY5RkIiLz4KICA8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj4KICAgIDwhLS0gSGVhZGVyIC0tPgogICAgPHRleHQgZmlsbD0iIzBGMTcyNyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZm9udC1mYW1pbHk9IkludGVyLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjMyIiBmb250LXdlaWdodD0iMzAwIiBsZXR0ZXItc3BhY2luZz0iLTAuMDFlbSIgeD0iODAiIHk9IjgwIj5Uby1EbyBMaXN0PC90ZXh0PgogICAgPHRleHQgZmlsbD0iIzk0QTNDQiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZm9udC1mYW1pbHk9IkludGVyLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmb250LXdlaWdodD0iMzAwIiB4PSI4MCIgeT0iMTA1Ij5BIHNpbXBsZSBzcGFjZSBmb3IgeW91ciB0YXNrcy4uLjwvdGV4dD4KICAgIAogICAgPCEtLSBJbnB1dCBBcmVhIC0tPgogICAgPHJlY3QgeD0iODAiIHk9IjE2MCIgd2lkdGg9IjY0MCIgaGVpZ2h0PSIxIiBmaWxsPSIjRTJFOEYwIi8+CiAgICA8dGV4dCBmaWxsPSIjOTRBM0NCIiBmb250LWZhbWlseT0iSW50ZXIiIGZvbnQtc2l6ZT0iOSIgZm9udC13ZWlnaHQ9IjYwMCIgbGV0dGVyLXNwYWNpbmc9IjAuMWVtIiB4PSI4MCIgeT0iMTUwIj5UQVNLPC90ZXh0PgogICAgPHRleHQgZmlsbD0iIzY0NzQ4QiIgZm9udC1mYW1pbHk9IkludGVyIiBmb250LXNpemU9IjE0IiB4PSI4MCIgeT0iMTg1Ij5XaGF0IG5lZWRzIHRvIGJlIGRvbmU/PC90ZXh0PgogICAgCiAgICA8IS0tIFRhc2sgSXRlbXMgLS0+CiAgICA8IS0tIERhdGUgRGl2aWRlciAtLT4KICAgIDx0ZXh0IGZpbGw9IiNDREU0RUYiIGZvbnQtZmFtaWx5PSJJbnRlciIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMC4yZW0iIHg9IjgwIiB5PSIyNTAiPk1PTkRBWSwgTUFSAzExPC90ZXh0PgogICAgPHJlY3QgeD0iMjAwIiB5PSIyNDciIHdpZHRoPSI1MjAiIGhlaWdodD0iMSIgZmlsbD0iI0YxRjVGO some actual text for visual preview in SVG -->
-    <rect x="80" y="270" width="640" height="70" rx="12" fill="white" stroke="#F1F5F9" stroke-width="1"/>
-    <rect x="95" y="295" width="20" height="20" rx="6" stroke="#E2E8F0" stroke-width="2"/>
-    <text fill="#1E293B" font-family="Inter" font-size="16" font-weight="300" x="130" y="310">Morning run at the park</text>
-    
-    <!-- Themed Task (Fitness) -->
-    <rect x="80" y="350" width="640" height="70" rx="12" fill="#ECFEFF" fill-opacity="0.5" stroke="white" stroke-width="1"/>
-    <rect x="95" y="375" width="20" height="20" rx="6" fill="#06B6D4" stroke="#06B6D4" stroke-width="2"/>
-    <path d="M100 385L104 389L110 381" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text fill="#06B6D4" font-family="Inter" font-size="14" x="130" y="390">💪</text>
-    <text fill="#64748B" font-family="Inter" font-size="16" font-weight="300" x="155" y="390" text-decoration="line-through">Evening gym session</text>
-    <text fill="#94A3CB" font-family="Inter" font-size="9" font-weight="700" x="130" y="410">MAR 11 • 18:30</text>
-  </g>
-</svg>" alt="Minimalist To-Do List Preview" width="100%">
+  <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDgwMCA1MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI1MDAiIGZpbGw9IiNGOEY5RkIiLz4KICA8dGV4dCBmaWxsPSIjMEYxNzJBIiBmb250LWZhbWlseT0iSW50ZXIsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzIiIGZvbnQtd2VpZ2h0PSIzMDAiIHg9IjgwIiB5PSI4MCI+VG8tRG8gTGlzdDwvdGV4dD4KICA8dGV4dCBmaWxsPSIjOTRBM0I4IiBmb250LWZhbWlseT0iSW50ZXIsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSIzMDAiIHg9IjgwIiB5PSIxMTAiPkEgc2ltcGxlIHNwYWNlIGZvciB5b3VyIHRhc2tzLjwvdGV4dD4KICAKICA8IS0tIElucHV0IHNlY3Rpb24gLS0+CiAgPHJlY3QgeD0iODAiIHk9IjE2MCIgd2lkdGg9IjY0MCIgaGVpZ2h0PSIxIiBmaWxsPSIjRTJFOEYwIi8+CiAgPHRleHQgZmlsbD0iIzk0QTNCOCIgZm9udC1mYW1pbHk9IkludGVyLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNjAwIiB4PSI4MCIgeT0iMTUwIj5UQVNLPC90ZXh0PgogIDx0ZXh0IGZpbGw9IiM2NDc0OEIiIGZvbnQtZmFtaWx5PSJJbnRlciwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgeD0iODAiIHk9IjE5MCI+TW9ybmluZyBjb2ZmZWUgd2l0aCB0ZWFtPC90ZXh0PgogIAogIDwhLS0gRGF0ZSBEaXZpZGVyIC0tPgogIDx0ZXh0IGZpbGw9IiNDQkQ1RTEiIGZvbnQtZmFtaWx5PSJJbnRlciwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZm9udC13ZWlnaHQ9IjcwMCIgeD0iODAiIHk9IjI2MCI+RlJJREFZLCBGRUIgMTQ8L3RleHQ+CiAgPHJlY3QgeD0iMjAwIiB5PSIyNTciIHdpZHRoPSI1MjAiIGhlaWdodD0iMSIgZmlsbD0iI0YxRjVGOV9fIi8+CiAgCiAgPCEtLSBWYWxlbnRpbmUgVGFzayAtLT4KICA8cmVjdCB4PSI4MCIgeT0iMjgwIiB3aWR0aD0iNjQwIiBoZWlnaHQ9IjgwIiByeD0iMTIiIGZpbGw9IiNGRkYxRjIiIGZpbGwtb3BhY2l0eT0iMC41IiBzdHJva2U9IiNGRkU0RTYiIHN0cm9rZS13aWR0aD0iMSIvPgogIDxyZWN0IHg9IjEwMCIgeT0iMzEwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSI2IiBmaWxsPSIjRkI3MTg1IiBzdHJva2U9IiNGQjcxODUiIHN0cm9rZS13aWR0aD0iMSIvPgogIDxwYXRoIGQ9Ik0xMDYgMzIwTDEwOSAzMjNMMTE0IDMxNyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8dGV4dCBmaWxsPSIjRkI3MTg1IiBmb250LWZhbWlseT0iSW50ZXIsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIHg9IjEzNSIgeT0iMzI1Ij7wn5KWIFZhbGVudGluZSBEaW5uZXI8L3RleHQ+CiAgPHRleHQgZmlsbD0iIzk0QTNCOCIgZm9udC1mYW1pbHk9IkludGVyLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmb250LXdlaWdodD0iNzAwIiB4PSIxMzUiIHk9IjM0NSI+RkVCLDE0IOKCoreDE5OjMwPC90ZXh0PgogIAogIDwhLS0gT3ZlcmR1ZSBUYXNrIC0tPgogIDxyZWN0IHg9IjgwIiB5PSIzODAiIHdpZHRoPSI2NDAiIGhlaWdodD0iODAiIHJ4PSIxMiIgZmlsbD0id2hpdGUiIHN0cm9rZT0iI0YxRjVGOSIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjMiLz4KICA8cmVjdCB4PSIxMDAiIHk9IjQxMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNiIgZmlsbD0iI0YxRjVGOSIgc3Ryb2tlPSIjRTJFOEYwIiBzdHJva2Utd2lkdGg9IjEiLz4KICA8dGV4dCBmaWxsPSIjNjQ3NDhCIiBmb250LWZhbWlseT0iSW50ZXIsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIHg9IjEzNSIgeT0iNDI1IiB0ZXh0LWRlY29yYXRpb249ImxpbmUtdGhyb3VnaCI+QnV5IGNob2NvbGF0ZXM8L3RleHQ+CiAgPHRleHQgZmlsbD0iIzk0QTNCOCIgZm9udC1mYW1pbHk9IkludGVyLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmb250LXdlaWdodD0iNzAwIiB4PSIxMzUiIHk9IjQ0NSI+RkVCLDEzIOKCoreDEwOjAwPC90ZXh0Pgo8L3N2Zz4=" alt="Minimalist To-Do List Preview" width="100%">
 </p>
 
 ---
@@ -37,7 +23,7 @@ In an era of notification-heavy productivity tools, this application takes a "pa
 ### Core Philosophy
 - **Whitespace as a Feature**: Massive margins and high-contrast typography to reduce cognitive load.
 - **Passive Persistence**: Overdue tasks aren't deleted; they fade into the background, providing a honest history of your schedule.
-- **Delightful Discovery**: Subtle animations and emojis appear only when specific contexts (like holidays or fitness) are detected in your writing.
+- **Delightful Discovery**: Subtle animations and emojis appear only when specific contexts (like holidays or fitness) are detected in your writing or selected dates.
 
 ## 🚀 Key Features
 
@@ -47,9 +33,9 @@ In an era of notification-heavy productivity tools, this application takes a "pa
 - **Drag-and-Drop**: Fluid reordering of tasks within the list using a dedicated grip handle.
 
 ### 🎭 Seasonal Moments (Themes)
-The app listens for keywords in your task descriptions to apply unique visual styles:
-- **Fitness**: (Gym, workout, exercise) triggers a cyan theme with a 💪 icon.
-- **Holidays**: (Christmas, Halloween, Ramadan, Valentine) trigger specialized color palettes and animated emojis.
+The app listens for keywords in your task descriptions AND specific calendar dates to apply unique visual styles:
+- **Date Triggers**: Significant dates like Feb 14 (Valentine's), Oct 31 (Halloween), and Dec 25 (Christmas) automatically theme tasks.
+- **Keyword Triggers**: (Gym, workout, exercise) triggers a cyan theme with a 💪 icon.
 - **Nature**: (Summer, Autumn) adjust the background and iconography to match the season.
 
 ### ⚡ Live Reactivity
@@ -64,40 +50,34 @@ The app listens for keywords in your task descriptions to apply unique visual st
 - **Date Logic**: `date-fns` (Precision date/time manipulation)
 - **Utilities**: `clsx` & `tailwind-merge` (Dynamic class handling)
 
-## 📖 Seasonal Keyword Guide
+## 📖 Seasonal Keyword & Date Guide
 
-Want to see the themes in action? Try adding these keywords to your tasks:
+Want to see the themes in action? Try adding these keywords or setting tasks on these dates:
 
-| Theme | Keywords | Emoji |
-| :--- | :--- | :--- |
-| **Valentine** | `valentine` | 💖 |
-| **Ramadan** | `ramadan`, `ramadhan` | 🌙 |
-| **Easter** | `easter` | 🐰 |
-| **Carnival** | `carnival`, `brazil` | ✨ |
-| **Halloween**| `halloween`, `spooky` | 👻 |
-| **Christmas**| `christmas`, `holiday` | 🎁 |
-| **Summer** | `summer`, `beach` | ☀️ |
-| **Fitness** | `gym`, `workout`, `lift`| 💪 |
+| Theme | Keywords | Date Trigger | Emoji |
+| :--- | :--- | :--- | :--- |
+| **Valentine** | `valentine` | Feb 14 | 💖 |
+| **Halloween**| `halloween`, `spooky` | Oct 31 | 👻 |
+| **Christmas**| `christmas`, `holiday` | Dec 24/25 | 🎁 |
+| **Ramadan** | `ramadan`, `ramadhan` | - | 🌙 |
+| **Easter** | `easter` | - | 🐰 |
+| **Summer** | `summer`, `beach` | Jun 21 | ☀️ |
+| **Autumn** | - | Sep 22 | 🍂 |
+| **Fitness** | `gym`, `workout`, `lift`| - | 💪 |
 
 ## 📦 Getting Started
 
 ### Prerequisites
 - A modern browser (Chrome, Safari, Edge, Firefox).
-- The project is configured to run via ESM modules directly in the browser or via standard React build tools.
 
 ### Installation
 1. Clone the repository.
-2. Run `npm install` to gather dependencies (if using a local build environment).
+2. Run `npm install`.
 3. Open `index.html` or run `npm run dev`.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Whether it's adding new seasonal themes or refining the minimalist CSS, please feel free to:
-1. Fork the project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+Contributions are welcome! Whether it's adding new seasonal themes or refining the minimalist CSS, please feel free to fork and PR.
 
 ## 📄 License
 
